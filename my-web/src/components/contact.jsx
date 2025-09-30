@@ -4,25 +4,24 @@ import "../styles/contact.css";
 const Contact = () => {
   return (
     <>
-
     <footer className="contact-footer">
       <div className="footer-content">
 
-        <p>Have a project or just want to chat? Let's connect!</p>
+        <p>Have a project of just want to say hi? Let's connect!</p>
 
-
-        <a className="email-link" href="mailto:kandisaagarwal@example.com">
-          kandisaagarwal@example.com
+        <a className="email-link" href="mailto:mitchellmv11@gmail.com">
+          mitchellmv11@gmail.com
         </a>
 
         <div className="social-links">
-          <a href="">Github</a>
+          <a href="https://github.com/TheBestShinobi">Github</a>
           <a href="">LinkedIn</a>
         </div>
 
       </div>
 
     </footer>
+
 
     </>
   );

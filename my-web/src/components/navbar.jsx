@@ -1,20 +1,20 @@
 import React from "react";
 import "../styles/navbar.css"
 
+
 export default function Navbar() {
 
-  const scrollToSection = (id) => {document.getElementById(id).scrollIntoView({behavior:"smooth"});
-  };
+  const scrollToSection = (id) => {document.getElementById(id).scrollIntoView({behavior:"smooth"})};
 
   return (
     <>
     <nav className="navbar">
 
-      <div
+      <div 
       className="nav-logo"
-      onClick={() => scrollToSection("home")}
+      onClick={()=> scrollToSection("home")}
       >
-        Kandisa Agarwal
+        Mitchell Verma
       </div>
 
       <ul className="nav-links">
@@ -22,7 +22,9 @@ export default function Navbar() {
         <li onClick={() => scrollToSection("contact")}>Contact</li>
         <li onClick={() => window.open("/resume.pdf", "_blank")}>Resume</li>
       </ul>
+
       
+
     </nav>
     </>
   );
